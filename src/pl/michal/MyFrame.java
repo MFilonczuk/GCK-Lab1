@@ -9,7 +9,6 @@ public class MyFrame extends JFrame {
 
     public MyFrame(){
 
-//        this.getContentPane().setPreferredSize(new Dimension(500,500));
         this.setTitle("Solar System");
         grafika.setPreferredSize(new Dimension(1680,720));
         this.add(grafika);

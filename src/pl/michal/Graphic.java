@@ -11,7 +11,6 @@ public class Graphic extends JPanel {
         super.paintComponent(g);
         this.setBackground(new Color(1, 3, 26));
 
-//        Graphics2D g2D = (Graphics2D) g; //rzutowanie
         Graphics2D g2D = (Graphics2D) g;
 
         DrawSpace(g2D);
@@ -23,39 +22,6 @@ public class Graphic extends JPanel {
         DrawSaturn(g2D);
         DrawUranus(g2D);
         DrawNeptune(g2D);
-
-
-
-//        g2D.drawArc(100,-10,220,820,270,180);
-
-//        g2D.setColor(Color.MAGENTA);
-//        g2D.drawLine(0,0,500,500);
-//        g2D.setStroke(new BasicStroke(20)); //grubośc linii
-//        g2D.drawLine(500,0,0,500);
-
-//        int[] xPoints = {50,100,150,200,250,300,350,400,450};     //Rysowanie linii
-//        int[] yPoints = {450,350,250,300,350,100,250,50,200};
-//        int nPoints = xPoints.length;
-//        g2D.setColor(Color.GREEN);
-//        g2D.drawPolyline(xPoints,yPoints,nPoints);
-//        g2D.setFont(new Font("Comic Sans",Font.ITALIC,25));
-//        g2D.drawString("STONKS",300,50);
-
-//        int [] x = {100,200,300};   //Rysowanei z puntków
-//        int [] y = {300,127,300};
-//        g2D.setColor(Color.MAGENTA);
-//        g2D.drawPolygon(x,y,3);
-//        g2D.fillPolygon(x,y,3);
-
-//        g2D.drawRect(50,50,300,300); //prostokaty/krawdraty
-//        g2D.fillRect(50,50,300,300);
-
-
-
-//        g2D.setPaint(paint);
-//        g2D.fillArc(50,50,400,400,45,270);
-
-
     }
 
 public void DrawSpace(Graphics2D g2D)
